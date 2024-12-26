@@ -1,0 +1,18 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 100px;
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    margin: 50px;
+    /* overflow: auto; */
+    overflow: scroll;
+    /* overflow: hidden; */
+    /* overflow: visible; */
+
+}

@@ -1,0 +1,121 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 200px;
+    width: 300px;
+    background-color: red;
+    margin: 60px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.box:hover{
+    background-color: blue;
+    transition: 1s ease-in;
+    transform: rotate(-180deg);
+    transform: translate(100px, 100px);
+    /* transform: scale(1.2); */
+    /* transform: skew(20deg); */
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 80px;
+    position: relative;
+}
+.eye{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    left: 182px;
+    top: 53px;
+}
+.eye2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+   top: 57px;
+   left: 53px;
+}
+.smile{
+    height: 20px;
+    width: 120px;
+    background-color: black;
+    position: absolute;
+    top: 197px;
+    left: 85px;
+}
+.circle:hover{
+    transform: rotate(360deg);
+    background-color: chocolate;
+    transition: 1s;
+}
+.fan{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    margin: 500px;
+}
+.fan:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+.one{
+    position: relative;
+
+}
+.two1{
+    height: 25px;
+    width: 250px;
+    /* background-color: brown; */
+    transform: rotate(90deg);
+    position: absolute;
+    top: -135px;
+    left: -73px;
+    background-color: brown;
+}
+.two2{
+    height: 25px;
+    width: 250px;
+    /* background-color: brown; */
+    /* transform: rotate(90deg); */
+    position: absolute;
+    top: 38px;
+    left: 98px;
+    background-color: brown;
+}
+.two3{
+    height: 25px;
+    width: 250px;
+    /* background-color: brown; */
+    transform: rotate(90deg);
+    position: absolute;
+    top: 210px;
+    left: -73px;
+    background-color: brown;
+}
+.two4{
+    height: 25px;
+    width: 250px;
+    /* background-color: brown; */
+    /* transform: rotate(90deg); */
+    position: absolute;
+    top: 39px;
+    left: -248px;
+    background-color: brown;
+}
+
+
+
